@@ -1,0 +1,276 @@
+* {
+    padding: 0; margin: 0;
+}
+@font-face {
+    font-family: Georgia;
+    src: url("fonts/georgia.ttf");
+}
+body {
+    background-color: #FFFFFF;
+    font-family: FuturaPT;
+    font-style: normal;
+    margin: 0;
+}
+
+/*------------------header-------------------*/
+
+header .menu {
+    list-style-type: none;
+    display: flex;
+    gap: 52px;
+    justify-content: center;
+}
+header .menu a, .phone {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    font-size: 18px;
+    font-family: Arial;
+}
+header {
+    background: url("images/OxZ18cIKnZI.png");
+    background-size: cover;
+    height: 520px;
+    padding-top: 54px;
+}
+header input {
+    margin: 0;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1 {
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 102px;
+    margin-left: 600px;
+    width: 680px;
+    color: #FFFFFF;
+}
+
+/*------------------main-------------------*/
+
+.container {
+    /* display: flex;
+    flex-wrap: wrap; */
+    margin: 0 auto;
+    width: 1021px;
+}
+section {
+    margin-bottom: 136px;
+    padding-top: 76px;
+    padding-bottom: 100px;
+}
+p {
+    font-family: 'Arial';
+    font-size: 16px;
+}
+h2 {
+    font-family: Georgia;
+    font-size: 45px;
+    font-weight: bold;
+    color: #a38b70;
+    margin-bottom: 70px;
+}
+h3 {
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: bold;
+    color: #a38b70;
+}
+h4 {
+    font-family: 'Arial';
+    font-size: 24px;
+    font-weight: bold;
+}
+h6 {
+    font-family: 'Arial';
+    font-size: 16px;
+    font-weight: bold;
+}
+h5 {
+    font-family: 'Arial';
+    font-size: 16px;
+    font-style: italic;
+}
+.button {
+    color: #a38b70;
+    border: 1px #a38b70 solid;
+    padding: 10px 30px;
+    float: right;
+    background-color: initial;
+}
+.button1 {
+    color: white;
+    border: 1px #ffffff solid;
+    background-color: initial;
+    padding: 10px 30px;
+    float: right;
+    border-radius: 5px;
+}
+.submit {
+    background: #a38b70;
+    color: white;
+    border: 0;
+    padding: 10px;
+    width: 122px;
+}
+.submit1 {
+    background: #a38b70;
+    color: white;
+    border: 0;
+    padding: 10px;
+    width: 122px;
+}
+.submit2 {
+    color: white;
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+    width: 122px;
+}
+/* .logo {
+    background: url("images/11.png");
+    background-position: center;
+    width: 230px;
+    height: 200px;
+    background-size: cover;
+}
+.icon1 {
+    background: url("images/11.png");
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+.icon2 {
+    background: url("images/12.png");
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+.icon3 {
+    background: url("images/ДНЕВНИК\ ОТЧЕТ.docx.png");
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    background-size: cover; 
+}*/
+.img1 {
+    background: url("images/3.png");
+    background-position: center;
+    width: 230px;
+    height: 200px;
+    background-size: cover;
+    
+}
+.img2 {
+    background: url("images/4.png");
+    width: 230px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.img3 {
+    background: url("images/5.png");
+    width: 230px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+ .reference .container a {
+    color: #a38b70;
+ }
+ .reference .container span {
+    font-style: italic;
+    color: gray;
+ }
+.price table {
+    padding: 20px;
+}
+.price td {
+    padding: 20px;
+    border: #a38b70 1px solid;
+}
+[type="text"], select {
+    width: 628px;
+}
+.reference, .popular, .price{
+    background-color: #f2f2f2;
+}
+.block1 .container{
+    display: flex;
+    margin-top: 136px;
+}
+.block1 .container div {
+    width: 340px;
+    text-align: center;
+}
+.review {
+    display: flex;
+}
+.popular article span {
+    float: right;
+}
+.popular .container .container {
+    display: flex;
+}
+.forma .container p {
+    float: right;
+}
+form {
+    display: inline-block;
+}
+.forma .container label {
+    font-family: Arial;
+    font-size: 12px;
+}
+input {
+    font-family: Arial;
+    font-size: 18px;
+    border-color: #a38b70;
+}
+[type="text"] {
+    padding: 10px 50px 10px 15px;
+}
+[type="phone"] {
+    padding: 10px 20px 10px 15px;
+}
+[type="email"] {
+    padding: 10px 20px 10px 15px;
+}
+textarea {
+    margin-top: 5px;
+    width: 620px;
+    height: 120px;
+}
+/*------------------footer-------------------*/
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .container .button1 {
+    margin: 30px 0px ;
+}
+footer {
+    width: 100%;
+    height: 573px;
+    background: #363636;
+}
+footer .menu {
+    list-style-type: none;
+    display: flex;
+    gap: 130px;
+    justify-content: left;
+}
+footer .menu a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 100px 0;
+}
